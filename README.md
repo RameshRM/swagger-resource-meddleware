@@ -14,13 +14,13 @@ npm install
 # Usage
 
 ```Javascript
-  var resourceServer = require('swagger-resource-meddleware');
-  var specDoc = yamltojs('yamlfile');
-  var app = require('express')();
+var resourceServer = require('swagger-resource-meddleware');
+var specDoc = yamltojs('yamlfile');
+var app = require('express')();
 
-  resourceServer.mount({
-    name: 'specname',
-    doc: specDoc
-  }, app, callback);
+resourceServer.mount({
+  name: 'specname',
+  doc: specDoc
+}, app, callback);
 
 ```
