@@ -21,6 +21,17 @@
     "eslint": "^2",
     "istanbul": "^0.4.4",
     "supertest": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rameshrm/swagger-resource-meddleware.git"
+  },
+  "keywords": [
+    "mock",
+    "swagger",
+    "mock server",
+    "middleware",
+    "swagger resource middleware"
+  ]
 
-  }
 }
